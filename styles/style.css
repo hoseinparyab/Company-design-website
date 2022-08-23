@@ -1,0 +1,168 @@
+@import 'rest.css';
+
+body {
+    /* width: 11; */
+    max-width: 100%;
+    overflow-x: hidden;
+    direction: ltr;
+
+
+}
+
+.container-massages {
+    height: 120px;
+    width: 65%;
+    margin-left: 450px;
+    margin-top: -21px;
+    border-radius: 3px;
+}
+
+button {
+    border: none;
+    border-radius: 3px;
+    background-color: black;
+    color: azure;
+    margin-left: 1174px;
+    padding: 0 10px 5px 11px;
+    cursor: pointer;
+
+}
+
+.p-massages {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.image-massages {
+    width: 60px;
+    margin-right: 794px;
+    margin-top: -94px;
+    
+
+
+}
+
+.bsn-img {
+    width: 20%;
+    margin: -649px 0px 16px 1464px;
+
+}
+
+/* !style content */
+.container-content {
+    /* background-color: red; */
+    width: 1400px;
+    height: 900px;
+    margin: 155px 359px;
+
+}
+
+.container-content .post-item {
+    /* background-color: rgb(255, 128, 0); */
+    width: 355px;
+    height: 373px;
+    position: relative;
+    border: #000 3px solid;
+
+}
+
+.photo-post {
+    /* background-color: blue; */
+    width: 250px;
+    height: 262px;
+    margin: 40px 8px;
+    position: absolute;
+    border: 6px double black;
+    transition: 0.5s;
+
+}
+
+.photo-post:hover{
+    cursor: pointer;
+    width: 165px;
+    height: 175px;
+    margin: 40px 40px;
+    transition: 0.5s;
+}
+.photo-post img {
+    width: 150px;
+    height: 162px;
+    /* border-bottom: dotted black 3px; */
+}
+
+.hr-theme-slash-2 {
+    display: flex;
+}
+
+.hr-line {
+    width: 100%;
+    position: relative;
+    margin: 15px;
+    border-bottom: 1px solid #000;
+}
+
+.hr-icon {
+    position: relative;
+    top: 3px;
+    color: #ff0000;
+}
+
+.right-item {
+    margin: -849px 975px;
+}
+
+.center-item {
+    margin: 5px 496px;
+}
+
+.text-post {
+
+    margin: 230px 25px;
+    padding: 5px 5px;
+    font-weight: 400;
+
+}
+
+.badge-left {
+    margin: 5px 5px;
+}
+
+.btn {
+    margin: -3px;
+
+}
+
+.read-more {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    margin: -208px 56px;
+    padding: 2px;
+    transition: 0.5s;
+
+}
+
+.read-more:hover{
+    background-color: #000;
+    color: beige;
+    transition: 0.5s;
+}
+
+.read-more a{
+    font-size: 15px;
+    font-weight: bold;
+    color: #000;
+    text-transform: capitalize;
+    transform: 5s;
+}
+
+.read-more a:hover{
+    font-size: 15px;
+    font-weight: bold;
+    color:#fff ;
+    text-transform: capitalize;
+    transition: 0.5s;
+}
+
+/* !end-styles-content */
