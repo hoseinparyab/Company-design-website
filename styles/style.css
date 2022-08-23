@@ -38,7 +38,7 @@ button {
     width: 60px;
     margin-right: 794px;
     margin-top: -94px;
-    
+
 
 
 }
@@ -78,13 +78,14 @@ button {
 
 }
 
-.photo-post:hover{
+.photo-post:hover {
     cursor: pointer;
     width: 165px;
     height: 175px;
     margin: 40px 40px;
     transition: 0.5s;
 }
+
 .photo-post img {
     width: 150px;
     height: 162px;
@@ -143,13 +144,13 @@ button {
 
 }
 
-.read-more:hover{
+.read-more:hover {
     background-color: #000;
     color: beige;
     transition: 0.5s;
 }
 
-.read-more a{
+.read-more a {
     font-size: 15px;
     font-weight: bold;
     color: #000;
@@ -157,12 +158,13 @@ button {
     transform: 5s;
 }
 
-.read-more a:hover{
+.read-more a:hover {
     font-size: 15px;
     font-weight: bold;
-    color:#fff ;
+    color: #fff;
     text-transform: capitalize;
     transition: 0.5s;
 }
 
 /* !end-styles-content */
+
