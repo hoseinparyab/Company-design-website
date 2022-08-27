@@ -5,7 +5,7 @@ body {
     max-width: 100%;
     overflow-x: hidden;
     direction: ltr;
-
+    background-color: rgb(242, 236, 228);
 
 }
 
@@ -201,20 +201,12 @@ height: 100%;
     width: 18px;
     opacity: 0.6;
     position: absolute;
-    bottom: 405px;
+    bottom: 422px;
     left: 437px;
     display: none;
     /* background-color: red; */
 }
-.pass-visibility-sign {
-    width: 18px;
-    opacity: 0.6;
-    position: absolute;
-    bottom: 348px;
-    left: 437px;
-    display: none;
-    /* background-color: red; */
-}
+
 .pass-visibility:hover {
     opacity: 0.8;
     cursor: pointer;

@@ -1,4 +1,6 @@
 // TODO: start close massages user (jquery)
+
+
 $(document).ready(function () {
   $(".container-massages").on("click", function () {
     $(this).fadeOut();
@@ -16,13 +18,13 @@ $(document).ready(function () {
       topBtn.fadeOut(400);
     }
   });
-  topBtn.click(function () {
+  topBtn.click(function(){
 
     $('html,body').animate({
-
-      scrollTop: 0
-    }, 1000);
-  });
+    
+        scrollTop:0
+    },1000);
+});
 });
 //TODO:end button Top To (jquery)
 
@@ -38,25 +40,23 @@ let eyeImage = document.querySelector('.pass-visibility');
 let passInput = document.querySelector('.pass-input');
 
 passInput.addEventListener('keyup', function() {
-    let passInputLength = passInput.value.length;
-    if (passInputLength == 0) {
-        eyeImage.style.display = 'none';
-    } else {
-        eyeImage.style.display = 'inline-block';
-    }
+  let passInputLength = passInput.value.length;
+  if (passInputLength == 0) {
+      eyeImage.style.display = 'none';
+  } else {
+      eyeImage.style.display = 'inline-block';
+  }
 });
-
 
 eyeImage.addEventListener('click', function() {
-    let passInputType = passInput.getAttribute('type');
+  let passInputType = passInput.getAttribute('type');
     //ToDO:toggle between password / text input types 
     if (passInputType == 'password') {
-        passInput.setAttribute('type', 'text');
-        eyeImage.setAttribute('src', '../images/eys2.png');
-    } else {
-        passInput.setAttribute('type', 'password');
-        eyeImage.setAttribute('src', '../images/eys.png');
-    }
-});
-
+      passInput.setAttribute('type', 'text');
+      eyeImage.setAttribute('src', 'images/eys2.png');
+  } else {
+      passInput.setAttribute('type', 'password');
+      eyeImage.setAttribute('src', 'images/eys.png');
+  }
+})
 // TODO:end the script enabled And disable Password (javascript)
