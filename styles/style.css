@@ -178,8 +178,7 @@ button {
   cursor: pointer;
 }
 
-.divider:after,
-.divider:before {
+.divider:after,.divider:before {
 content: "";
 flex: 1;
 height: 1px;
@@ -197,7 +196,7 @@ height: 100%;
 .btn-rg{
     margin-top: -89px;
 }
-
+/*? style pass visibility */
 .pass-visibility {
     width: 18px;
     opacity: 0.6;
