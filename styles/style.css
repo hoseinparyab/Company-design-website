@@ -197,3 +197,17 @@ height: 100%;
 .btn-rg{
     margin-top: -89px;
 }
+
+.pass-visibility {
+    width: 18px;
+    opacity: 0.6;
+    position: absolute;
+    bottom: 405px;
+    left: 437px;
+    display: none;
+    /* background-color: red; */
+}
+.pass-visibility:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
